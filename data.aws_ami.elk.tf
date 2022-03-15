@@ -5,6 +5,8 @@ data "aws_ami" "elk" {
     name   = "name"
     values = ["Open Distro for Elasticsearch-1.13.2-x86_64-04/07/21-18.42.33"]
   }
+
+  owners = ["745719312218"] # Open Distro
 }
 
 #data "aws_ami" "elk" {
